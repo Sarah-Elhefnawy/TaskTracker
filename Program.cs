@@ -4,6 +4,7 @@ namespace TaskTracker
 {
 	internal class Program
 	{
+		//when initializing any attribute, variable or method --> it MUST be static as you won't initialize new object
 		static string[] tasks = new string[100];
 
 		static int taskIndex = 0;
